@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <title>Ouestion and Answer</title>
+</head>
+
+<body>
+    <div class="error">Please Enter some text in Textarea 🙂</div>
+    <div class="Question-container">
+        
+        <div class="container-fluid" style="padding-left: 0px;">
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, voluptas.</p> -->
+            <h1>Ask Question?</h1>
+            <button id="question-button" class="btn btn-outline-dark btn-lg my-3" type="button">Add Question</button>
+        </div>
+
+        <div class="billboard d-none">
+            <div class="flexbox">
+                <h2 style="font-size: 3rem;">Question</h2>
+                <button id="cancel-button" type="button">&times;</button>
+            </div>
+            <!-- <form id="submit-area"action="#"> -->
+            <div class="form-group">
+                <label for="question">Please ask sensable questions?</label>
+                <textarea class="form-control" name="question" id="question" cols="10" rows="5"
+                    placeholder="Ask your question?"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Please write good Answer.</label>
+                <textarea class="form-control" name="question" id="answer" cols="10" rows="5"
+                    placeholder="Write your answer."></textarea>
+            </div>
+            <button id="submit-button" type="button" class="btn btn-dark btn-lg">Submit Question</button>
+            <!-- </form> -->
+        </div>
+    </div>
+    
+
+    <div class="container-flex Question-list">
+        <!-- <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Lorem ipsum dolor sit amdeleniti saepe! </h3>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum docupiditate dolores saepe ea.</p>
+                <div class="links"><a href="#">Show Text</a> / <a href="#">Hide Text</a></div>
+                <div class="flex">
+                    <button type="button" class="btn btn-warning"><i class="fas fa-edit"></i> Edit</button>
+                    <button type="button" class="btn btn-danger"><i class="fas fa-trash"></i> Delete</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="overlay"></div>
+
+
+    <script src="brain.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
